@@ -1,0 +1,14 @@
+# 本地虚拟环境
+.venv/
+__pycache__/
+*.pyc
+
+# 本机配置与运行数据(含个人路径、统计、截图)
+config.json
+stats.json
+screenshots/
+templates/*.png
+templates/*.jpg
+
+# 第三方参考源码,不随本仓库分发(见 README 致谢中的原项目链接)
+reference/
